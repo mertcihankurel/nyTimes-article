@@ -1,5 +1,5 @@
 # New York Times Article Page
-
+<img src="images/nyscreenshot.png" alt="nytimes">
 
 ## Live Server
 [Live]https://rawcdn.githack.com/mcihadkurel/nyTimes-article/bcf8ce540a99b6551d14207190b0b7c731aa13fa/index.html
