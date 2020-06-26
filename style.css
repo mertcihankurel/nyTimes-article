@@ -1,5 +1,9 @@
+html{
+  height: -webkit-fill-available;
+}
 body {
   background-color: white;
+  margin: 0;
 }
 
 nav {
@@ -8,10 +12,11 @@ nav {
   left: 0;
   right: 0;
   display: inline-block;
-  height: 7%;
+  height: 42px;
   text-align: center;
   background-color: white;
   border-bottom: 1px solid rgb(219, 217, 217);
+  z-index: 1;
 }
 
 .nav-left {
@@ -21,7 +26,7 @@ nav {
 
 .nav-right {
   float: right;
-  margin: 17px;
+  margin: 12px;
 }
 
 nav img {
@@ -50,8 +55,8 @@ nav button {
   background: #567b95;
   color: white;
   font-weight: bolder;
-  padding: 11px 12px 4px;
-  margin-top: -12px;
+  padding: 10px 16px 10px;
+  margin-top: -7px;
   border-radius: 3px;
   border: 0;
 }
@@ -405,8 +410,6 @@ h4 {
     text-decoration: none;
 }
 
-
-
 .categories a:hover,
 .subscribe a:hover{
     text-decoration: underline;
@@ -418,10 +421,9 @@ h4 {
     margin-top: 1px
     
 }
+
 hr{
-    width: 70%;
-    float: left;
-    
+    width: 80%;
 }
 
 .subscribe {
@@ -434,17 +436,15 @@ hr{
 
 .subscribe div{
     border-top: 1px solid #dddbdb;
- 
-}
+ }
 
 .categories li,
 .subscribe li{
     padding: 3% 0%;
-    
 }
 
 .about{
-    text-align: center; 
+    text-align: center;
 }
 
 .about ul{
@@ -452,6 +452,9 @@ hr{
     display: flex;
     text-decoration: none;
     margin-top: 35px;
+    padding-bottom: 72px;
+    position: relative;
+    left: 80px;
 }
 
 .about ul li a{
@@ -461,8 +464,7 @@ hr{
     padding: 10px;
     white-space: nowrap;
     border-top: 1px solid #dddbdb;
-    }
-
+ }
 
  .nav-bottom{
     bottom: 0;

@@ -19,22 +19,6 @@ This project contains box model, floating and positioning elements
 [Live](https://rawcdn.githack.com/mcihadkurel/nyTimes-article/bcf8ce540a99b6551d14207190b0b7c731aa13fa/index.html)
 
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-
-
 👤 **Author**
 
 - Github: [@mcihadkurel](https://github.com/mcihadkurel)
