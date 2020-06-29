@@ -54,12 +54,12 @@ aside a {
   text-decoration: none;
 }
 
-.more a {
-  text-decoration: none;
-}
-
 article h4 a {
   color: #333;
+}
+
+.more a {
+  text-decoration: none;
 }
 
 .nav-bottom a {
@@ -160,6 +160,13 @@ article span {
   color: #888;
 }
 
+.most-popular a {
+  text-decoration: none;
+  font-size: 19px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #121212;
+}
+
 .article-footer ul {
   display: flex;
   list-style: none;
@@ -174,6 +181,31 @@ article span {
   padding: 6px;
   border-radius: 50%;
   margin: 8px;
+}
+
+section p {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  margin-right: 25px;
+}
+
+.post-date li {
+  background: #eee;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.most-popular ul li {
+  padding: 18px 0;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.categories a {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
 }
 
 .article-footer li:hover {
@@ -244,12 +276,6 @@ article span {
   white-space: nowrap;
 }
 
-.post-date li {
-  background: #eee;
-  padding: 8px;
-  border-radius: 50%;
-}
-
 article h4 a:hover {
   text-decoration: none;
 }
@@ -313,13 +339,6 @@ section h3 {
   color: #000;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: -1%;
-}
-
-section p {
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #666;
-  margin-right: 25px;
 }
 
 figure {
@@ -399,18 +418,6 @@ figure img {
   margin-left: 10%;
 }
 
-.most-popular a {
-  text-decoration: none;
-  font-size: 19px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #121212;
-}
-
-.most-popular ul li {
-  padding: 18px 0;
-  border-bottom: 1px solid #c7c7c7;
-}
-
 .footer-logo {
   border-top: double #bebebe;
   width: 90%;
@@ -426,13 +433,6 @@ figure img {
   display: flex;
   justify-content: space-around;
   width: 70%;
-}
-
-.categories a {
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000;
-  text-decoration: none;
 }
 
 .categories a:hover,
