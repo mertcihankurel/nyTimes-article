@@ -1,5 +1,5 @@
 html{
-  height: -webkit-fill-available;
+  height:-webkit-fill-available;
 }
 body {
   background-color: white;
@@ -16,7 +16,7 @@ nav {
   text-align: center;
   background-color: white;
   border-bottom: 1px solid rgb(219, 217, 217);
-  z-index: 1;
+  z-index: 180;
 }
 
 .nav-left {
@@ -253,7 +253,7 @@ aside a {
 }
 
 aside hr {
-  width: 85%;
+  max-width: 85%;
   margin: 0% 5% 4% 0%;
   opacity: 0.4;
 }
