@@ -217,8 +217,7 @@ article span {
   color: #326891;
 }
 
-.about ul li a {    
-  
+.about ul li a {
   font-size: 11px;
   color: #666;
   padding: 10px;
@@ -424,78 +423,78 @@ h4 {
 }
 
 .categories {
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
 }
 
 .categories a {
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000;
-    text-decoration: none;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
 }
 
 .categories a:hover,
 .subscribe a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .categories ul,
 .subscribe ul {
-    list-style: none;
-    margin-top: 1px
+  list-style: none;
+  margin-top: 1px;
 }
 
 .subscribe {
-    float: right;
-    width: 23%;
-    position: relative;
-    bottom: 415px;
-    border-left: 1px solid #dddbdb;
+  float: right;
+  width: 23%;
+  position: relative;
+  bottom: 415px;
+  border-left: 1px solid #dddbdb;
 }
 
 .subscribe div {
-    border-top: 1px solid #dddbdb;
- }
+  border-top: 1px solid #dddbdb;
+}
 
 .about {
-    text-align: center;
+  text-align: center;
 }
 
 .about ul {
-    list-style: none;
-    display: flex;
-    text-decoration: none;
-    margin-top: 35px;
-    padding-bottom: 72px;
-    position: relative;
-    left: 80px;
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  margin-top: 35px;
+  padding-bottom: 72px;
+  position: relative;
+  left: 80px;
 }
 
- .nav-bottom {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    background-color: white;
-    text-align: center;
-    border-top: 1px solid #777;
+.nav-bottom {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: white;
+  text-align: center;
+  border-top: 1px solid #777;
 }
 
 .nav-bottom p {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
 }
 
 .nav-bottom div {
-float: right;
-position: relative;
-bottom: 24px;
-right: 82px;
-text-decoration: none;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 13px;
-font-weight: bolder;
+  float: right;
+  position: relative;
+  bottom: 24px;
+  right: 82px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bolder;
 }
