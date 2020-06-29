@@ -276,6 +276,11 @@ section p {
   white-space: nowrap;
 }
 
+.subscribe a {
+  color: #333;
+  text-decoration: none;
+}
+
 article h4 a:hover {
   text-decoration: none;
 }
@@ -433,11 +438,6 @@ figure img {
   display: flex;
   justify-content: space-around;
   width: 70%;
-}
-
-.subscribe a{
-  color:#333;
-  text-decoration: none;
 }
 
 .categories a:hover,
