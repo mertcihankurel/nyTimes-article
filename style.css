@@ -1,4 +1,4 @@
-html{
+html {
   height: -webkit-fill-available;
 }
 
@@ -43,6 +43,12 @@ nav a {
   font-size: 14.25px;
   color: #000;
   padding: 5px;
+}
+
+.nav-bottom a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 22px;
 }
 
 nav i {
@@ -91,6 +97,18 @@ main span {
   font-size: 13px;
 }
 
+.categories li {
+  padding: 3% 0%;
+}
+
+.footer-logo a {
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #567b95;
+  text-decoration: none;
+}
+
 article {
   margin: 0% 27%;
 }
@@ -105,9 +123,11 @@ article h4 a {
   color: #333;
 }
 
-article h4 a:hover {
-  text-decoration: none;
+.subscribe li {
+  padding: 3% 0%;
 }
+
+
 
 article iframe {
   margin: 5% 0% 2% 0%;
@@ -197,6 +217,15 @@ article span {
 
 .Psection a {
   color: #326891;
+}
+
+.about ul li a {    
+  
+  font-size: 11px;
+  color: #666;
+  padding: 10px;
+  white-space: nowrap;
+  border-top: 1px solid #dddbdb;
 }
 
 .Psection a:hover {
@@ -387,13 +416,7 @@ h4 {
   padding: 2% 4%;
 }
 
-.footer-logo a {
-  float: right;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  color: #567b95;
-  text-decoration: none;
-}
+
 
 .footer-logo img {
   height: 30px;
@@ -420,6 +443,10 @@ h4 {
     text-decoration: underline;
 }
 
+article h4 a:hover {
+  text-decoration: none;
+}
+
 .categories ul,
 .subscribe ul {
     list-style: none;
@@ -438,11 +465,6 @@ h4 {
     border-top: 1px solid #dddbdb;
  }
 
-.categories li,
-.subscribe li {
-    padding: 3% 0%;
-}
-
 .about {
     text-align: center;
 }
@@ -457,14 +479,6 @@ h4 {
     left: 80px;
 }
 
-.about ul li a {    
-    font-size: 11px;
-    color: #666;
-    padding: 10px;
-    white-space: nowrap;
-    border-top: 1px solid #dddbdb;
- }
-
  .nav-bottom {
     bottom: 0;
     left: 0;
@@ -478,7 +492,7 @@ h4 {
 .nav-bottom p {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    color:#000;
+    color: #000;
 }
 
 .nav-bottom div {
@@ -490,10 +504,4 @@ text-decoration: none;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 13px;
 font-weight: bolder;
-}
-
-.nav-bottom a {
-    text-decoration: none;
-    color: #000;
-    margin-right: 22px;
 }
