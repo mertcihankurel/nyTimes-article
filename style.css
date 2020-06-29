@@ -268,17 +268,17 @@ section p {
   color: #326891;
 }
 
+.subscribe a {
+  color: #333;
+  text-decoration: none;
+}
+
 .about ul li a {
   font-size: 11px;
   color: #666;
   padding: 10px;
   border-top: 1px solid #dddbdb;
   white-space: nowrap;
-}
-
-.subscribe a {
-  color: #333;
-  text-decoration: none;
 }
 
 article h4 a:hover {
