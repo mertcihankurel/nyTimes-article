@@ -1,6 +1,7 @@
 html{
-  height:-webkit-fill-available;
+  height: -webkit-fill-available;
 }
+
 body {
   background-color: white;
   margin: 0;
@@ -40,7 +41,7 @@ nav a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 14.25px;
-  color: #000000;
+  color: #000;
   padding: 5px;
 }
 
@@ -71,6 +72,7 @@ main img {
   width: 95%;
   margin-left: 5%;
 }
+
 main h1 {
   color: #121212;
   font-style: italic;
@@ -85,7 +87,7 @@ main p {
 }
 
 main span {
-  color: #666666;
+  color: #666;
   font-size: 13px;
 }
 
@@ -96,11 +98,11 @@ article {
 article h4 {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #333333;
+  color: #333;
 }
 
 article h4 a {
-  color: #333333;
+  color: #333;
 }
 
 article h4 a:hover {
@@ -118,7 +120,7 @@ article img {
 article span {
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #888888;
+  color: #888;
 }
 
 .article-footer ul {
@@ -131,7 +133,7 @@ article span {
 }
 
 .article-footer li {
-  background: #eeeeee;
+  background: #eee;
   padding: 6px;
   border-radius: 50%;
   margin: 8px;
@@ -144,7 +146,7 @@ article span {
 .article-footer p {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #666666;
+  color: #666;
 }
 
 .article-footer button {
@@ -182,7 +184,7 @@ article span {
 }
 
 .post-date li {
-  background: #eeeeee;
+  background: #eee;
   padding: 8px;
   border-radius: 50%;
 }
@@ -190,7 +192,7 @@ article span {
 .Psection {
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #333333;
+  color: #333;
 }
 
 .Psection a {
@@ -212,6 +214,10 @@ article span {
   text-decoration: none;
   text-align: center;
   color: #326891;
+}
+
+hr {
+  width: 80%;
 }
 
 .section-break hr {
@@ -237,7 +243,7 @@ aside img {
 
 aside h2 {
   font-size: 14px;
-  color: #000000;
+  color: #000;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px 0px 3px;
   padding: 0px 0px 12px;
@@ -246,7 +252,7 @@ aside h2 {
 aside a {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
-  color: #333333;
+  color: #333;
   float: right;
   margin: -35% 12% 0 35%;
   text-decoration: none;
@@ -264,7 +270,7 @@ section {
 
 section h3 {
   font-size: 20px;
-  color: #000000;
+  color: #000;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: -1%;
 }
@@ -272,7 +278,7 @@ section h3 {
 section p {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #666666;
+  color: #666;
   margin-right: 25px;
 }
 
@@ -316,7 +322,7 @@ figure img {
 .more p {
   float: right;
   font-size: 10px;
-  color: #999999;
+  color: #999;
   margin-top: -1%;
 }
 
@@ -328,12 +334,12 @@ figure img {
 }
 
 .more h3:hover {
-  color: #333333;
+  color: #333;
 }
 
 .more span {
   float: left;
-  color: #999999;
+  color: #999;
   font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: -5%;
@@ -342,7 +348,7 @@ figure img {
 h4 {
   margin-left: 5%;
   font-weight: bolder;
-  color: #333333;
+  color: #333;
 }
 
 .most-popular {
@@ -357,7 +363,7 @@ h4 {
 }
 
 .most-popular h2 {
-  color: #333333;
+  color: #333;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 10%;
@@ -379,7 +385,6 @@ h4 {
   border-top: double #bebebe;
   width: 90%;
   padding: 2% 4%;
-  
 }
 
 .footer-logo a {
@@ -395,7 +400,7 @@ h4 {
   width: 190px;
 }
 
-.categories{
+.categories {
     display: flex;
     justify-content: space-around;
     width: 70%;
@@ -403,51 +408,46 @@ h4 {
 
 .categories a,
 .subscribe a,
-.about ul li a{
+.about ul li a {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
-    color:#000000;
+    color:#000;
     text-decoration: none;
 }
 
 .categories a:hover,
-.subscribe a:hover{
+.subscribe a:hover {
     text-decoration: underline;
 }
 
 .categories ul,
-.subscribe ul{
+.subscribe ul {
     list-style: none;
     margin-top: 1px
-    
-}
-
-hr{
-    width: 80%;
 }
 
 .subscribe {
     float: right;
     width: 23%;
-    position:relative;
+    position: relative;
     bottom: 415px;
     border-left: 1px solid #dddbdb;
 }
 
-.subscribe div{
+.subscribe div {
     border-top: 1px solid #dddbdb;
  }
 
 .categories li,
-.subscribe li{
+.subscribe li {
     padding: 3% 0%;
 }
 
-.about{
+.about {
     text-align: center;
 }
 
-.about ul{
+.about ul {
     list-style: none;
     display: flex;
     text-decoration: none;
@@ -457,32 +457,31 @@ hr{
     left: 80px;
 }
 
-.about ul li a{
-    
+.about ul li a {    
     font-size: 11px;
-    color: #666666;
+    color: #666;
     padding: 10px;
     white-space: nowrap;
     border-top: 1px solid #dddbdb;
  }
 
- .nav-bottom{
+ .nav-bottom {
     bottom: 0;
     left: 0;
     right: 0;
     position: fixed;
     background-color: white;
     text-align: center;
-    border-top: 1px solid #777777;
+    border-top: 1px solid #777;
 }
 
-.nav-bottom p{
+.nav-bottom p {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    color:#000000;
+    color:#000;
 }
 
-.nav-bottom div{
+.nav-bottom div {
 float: right;
 position: relative;
 bottom: 24px;
@@ -491,11 +490,10 @@ text-decoration: none;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 13px;
 font-weight: bolder;
-
 }
 
-.nav-bottom a{
+.nav-bottom a {
     text-decoration: none;
-    color: #000000;
+    color: #000;
     margin-right: 22px;
 }
