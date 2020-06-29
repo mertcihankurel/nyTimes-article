@@ -435,6 +435,11 @@ figure img {
   width: 70%;
 }
 
+.subscribe a{
+  color:#333;
+  text-decoration: none;
+}
+
 .categories a:hover,
 .subscribe a:hover {
   text-decoration: underline;
