@@ -45,6 +45,23 @@ nav a {
   padding: 5px;
 }
 
+aside a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: #333;
+  float: right;
+  margin: -35% 12% 0 35%;
+  text-decoration: none;
+}
+
+.more a {
+  text-decoration: none;
+}
+
+article h4 a {
+  color: #333;
+}
+
 .nav-bottom a {
   text-decoration: none;
   color: #000;
@@ -82,7 +99,7 @@ main img {
 main h1 {
   color: #121212;
   font-style: italic;
-  margin: 0px 200px 18px;
+  margin: 0 200px 18px;
   letter-spacing: 0.2em;
 }
 
@@ -113,13 +130,15 @@ article {
   margin: 0% 27%;
 }
 
-article h4 {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+h4 {
+  margin-left: 5%;
+  font-weight: bolder;
   color: #333;
 }
 
-article h4 a {
+article h4 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   color: #333;
 }
 
@@ -197,14 +216,14 @@ article span {
   padding: 5px;
 }
 
-.post-date li:hover {
-  background: white;
+.section-break a {
+  text-decoration: none;
+  text-align: center;
+  color: #326891;
 }
 
-.post-date li {
-  background: #eee;
-  padding: 8px;
-  border-radius: 50%;
+.post-date li:hover {
+  background: white;
 }
 
 .Psection {
@@ -225,6 +244,12 @@ article span {
   white-space: nowrap;
 }
 
+.post-date li {
+  background: #eee;
+  padding: 8px;
+  border-radius: 50%;
+}
+
 article h4 a:hover {
   text-decoration: none;
 }
@@ -240,14 +265,14 @@ article h4 a:hover {
   font-size: 15px;
 }
 
-.section-break a {
-  text-decoration: none;
-  text-align: center;
-  color: #326891;
-}
-
 hr {
   width: 80%;
+}
+
+aside hr {
+  max-width: 85%;
+  margin: 0% 5% 4% 0%;
+  opacity: 0.4;
 }
 
 .section-break hr {
@@ -275,23 +300,8 @@ aside h2 {
   font-size: 14px;
   color: #000;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0px 0px 3px;
-  padding: 0px 0px 12px;
-}
-
-aside a {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 14px;
-  color: #333;
-  float: right;
-  margin: -35% 12% 0 35%;
-  text-decoration: none;
-}
-
-aside hr {
-  max-width: 85%;
-  margin: 0% 5% 4% 0%;
-  opacity: 0.4;
+  margin: 0 0 3px;
+  padding: 0 0 12px;
 }
 
 section {
@@ -345,10 +355,6 @@ figure img {
   width: 270px;
 }
 
-.more a {
-  text-decoration: none;
-}
-
 .more p {
   float: right;
   font-size: 10px;
@@ -373,12 +379,6 @@ figure img {
   font-size: 11px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: -5%;
-}
-
-h4 {
-  margin-left: 5%;
-  font-weight: bolder;
-  color: #333;
 }
 
 .most-popular {
@@ -407,7 +407,7 @@ h4 {
 }
 
 .most-popular ul li {
-  padding: 18px 0px;
+  padding: 18px 0;
   border-bottom: 1px solid #c7c7c7;
 }
 
